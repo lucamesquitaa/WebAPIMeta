@@ -3,7 +3,7 @@ using System.ComponentModel.DataAnnotations;
 
 namespace WebAPIMeta.Models
 {
-    public class Contas
+    public class ContasDTOVisulizacao
     {
         [Key]
         public int Id { get; set; }

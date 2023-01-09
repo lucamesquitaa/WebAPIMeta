@@ -58,7 +58,7 @@ namespace WebAPIMeta.Services
 
                 int atraso = _calculator.CalculaDias(dataVencimento, dataPagamento);
 
-                var response = new Contas
+                var response = new ContasDTOVisulizacao
                 {
                     Nome = conta.Nome,
                     ValorOriginal = valorOriginal,

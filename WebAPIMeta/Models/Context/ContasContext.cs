@@ -9,6 +9,6 @@ namespace WebAPIMeta.Models.Context
 
         }
 
-        public DbSet<Contas> Contas { get; set; }
+        public DbSet<ContasDTOVisulizacao> Contas { get; set; }
     }
 }
